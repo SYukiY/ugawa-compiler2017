@@ -25,7 +25,8 @@ unaryExpr: VALUE			# literalExpr
 	| '(' expr ')'			# parenExpr
 	;
 
-BITOP: '&'|'|';
+OROP: '|';
+ANDOP: '&';
 ADDOP: '+'|'-';
 MULOP: '*'|'/';
 
